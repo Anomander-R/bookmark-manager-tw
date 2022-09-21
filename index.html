@@ -4,11 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Simple Tailwind Starter</title>
+    <title>Bookmark Manager</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
   </head>
-  <body>
-    <h1 class="text-4xl mb-4">Welcome</h1>
-    <p>Start building your Tailwind project</p>
+  <body class="overflow-x-hidden">
+    <nav class="container relative mx-auto p-6">
+      <!-- Flex container for Nav -->
+      <div class="flex items-center justify-between space-x-20 my-6">
+        <!-- Logo -->
+        <div class="z-30 w-10 h-10">
+          <img src="./images/logo-bookmark.svg" alt="" id="logo">
+        </div>
+        <!-- Menu Items-->
+        <div class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex">
+          <a href="#features" class="tracking-widest hover:text-softRed">Features</a>
+          <a href="#download" class="tracking-widest hover:text-softRed">Download</a>
+          <a href="#faq" class="tracking-widest hover:text-softRed"> FAQ</a>
+          <a href="#faq" class="px-8 py-2 bg-softRed text-white rounded-lg 
+                                tracking-widest border-2 border-softRed shadow-md
+                              hover:text-softRed hover:bg-transparent
+                              hover:-translate-y-0.5">
+          Login</a>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
