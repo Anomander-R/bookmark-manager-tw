@@ -37,7 +37,7 @@
           <a href="#faq" class="tracking-widest hover:text-softRed"> FAQ</a>
           <a
             href="#faq"
-            class="px-8 py-2 bg-softRed text-white rounded-lg tracking-widest border-2 border-softRed shadow-md hover:text-softRed hover:bg-transparent hover:-translate-y-0.5"
+            class="px-8 py-2 bg-softRed text-white rounded-lg tracking-widest border-2 border-softRed shadow-md duration-200 hover:text-softRed hover:bg-transparent hover:-translate-y-0.5"
           >
             Login</a
           >
@@ -72,12 +72,12 @@
           >
             <a
               href="#"
-              class="p-4 text-sm font-semibold text-white bg-softBlue rounded-lg shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
+              class="p-4 text-sm font-semibold text-white bg-softBlue rounded-lg shadow-md border-2 border-softBlue md:text-base duration-200 hover:bg-white hover:text-softBlue"
               >Get It On Chrome</a
             >
             <a
               href="#"
-              class="p-4 text-sm font-semibold text-white bg-gray-600 rounded-lg shadow-md border-2 border-gray-600 md:text-base hover:bg-white hover:text-gray-600"
+              class="p-4 text-sm font-semibold text-white bg-gray-600 rounded-lg shadow-md border-2 border-gray-600 md:text-base duration-200 hover:bg-white hover:text-gray-600"
               >Get It On Firefox</a
             >
           </div>
@@ -188,7 +188,7 @@
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue hover:text-softBlue hover:bg-transparent"
+                  class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex duration-200 md:border-softBlue hover:text-softBlue hover:bg-transparent"
                   >More Info</a
                 >
               </div>
@@ -228,7 +228,7 @@
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue hover:text-softBlue hover:bg-transparent"
+                  class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue duration-200 hover:text-softBlue hover:bg-transparent"
                   >More Info</a
                 >
               </div>
@@ -268,105 +268,148 @@
               <div class="mx-auto md:mx-0">
                 <a
                   href="#"
-                  class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue hover:text-softBlue hover:bg-transparent"
+                  class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue duration-200 hover:text-softBlue hover:bg-transparent"
                   >More Info</a
                 >
-              </div><!-- End of Button -->
-              
-            </div> <!-- End of Panel Content -->
-           
-          </div><!-- End of Panel 3 -->
-          
+              </div>
+              <!-- End of Button -->
+            </div>
+            <!-- End of Panel Content -->
+          </div>
+          <!-- End of Panel 3 -->
         </div>
-      </div> <!-- End of Tabs/Panels container -->
-      
+      </div>
+      <!-- End of Tabs/Panels container -->
     </section>
 
     <!-- Download Section -->
     <section id="download">
       <div class="container mx-auto px-6">
-        <h2 class="mb-6 text-3xl md:text-4xl font-semibold text-center">Download the Extension</h2>
+        <h2 class="mb-6 text-3xl md:text-4xl font-semibold text-center">
+          Download the Extension
+        </h2>
         <p class="mb-6 text-xl text-gray-400 text-center max-w-md mx-auto">
-         We've got more browsers in the pipline. Please do let us know if 
-         you've got a favorite you'd like us to prioritize.
+          We've got more browsers in the pipline. Please do let us know if
+          you've got a favorite you'd like us to prioritize.
         </p>
       </div>
+    </section> <!-- End of Download Section -->
+
+ 
+    <!-- New Download Boxes Section -->
+    <section id="download-boxes" class="py-32">
+     
+     
+      <!-- Boxes Container -->
+      <div class="relative flex flex-col items-center max-w-5xl 
+                  mx-auto space-y-10 px-10 md:px-6 md:space-y-0 
+                  md:space-x-7 md:flex-row">
+                
+          <!-- Box 1 -->
+          <div class="relative md:-top-10 flex flex-col w-full md:w-1/3 py-6 space-y-4 text-center rounded-lg shadow-lg">
+            <!-- Image -->
+            <div class="flex justify-center">
+                <img src="./images/logo-chrome.svg" alt="Chrome">
+            </div>
+            <!-- Text -->
+            <h5 class="pt-6 text-xl font-bold">
+              Add to Chrome
+            </h5>
+            <p class="text-gray-400">
+              Minimum Version 62
+            </p>
+            <!-- Dots -->
+            <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize"></div>
+            <!-- Button -->
+              <div class="mx-auto">
+                <a
+                  href="#"
+                  class="block w-full py-3 px-6 text-white duration-200
+                         border-2 rounded-lg bg-softBlue hover:text-softBlue
+                         hover:bg-white border-softBlue"
+                  >Add & Install Extension</a>
+              </div>
+          <!-- End of Button -->
+          </div>
+
+          <!-- Box 2 -->
+          <div class="relative flex flex-col w-full md:w-1/3 py-6 space-y-4 text-center rounded-lg shadow-lg">
+            <!-- Image -->
+            <div class="flex justify-center">
+                <img src="./images/logo-firefox.svg" alt="Firefox">
+            </div>
+            <!-- Text -->
+            <h5 class="pt-6 text-xl font-bold">
+              Add to Firefox
+            </h5>
+            <p class="text-gray-400">
+              Minimum Version 55
+            </p>
+            <!-- Dots -->
+            <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize"></div>
+            <!-- Button -->
+              <div class="mx-auto">
+                <a
+                  href="#"
+                  class="block w-full py-3 px-6 text-white duration-200
+                         border-2 rounded-lg bg-softBlue hover:text-softBlue
+                         hover:bg-white border-softBlue"
+                  >Add & Install Extension</a>
+              </div>
+          <!-- End of Button -->
+          </div>
+
+          <!-- Box 3 -->
+          <div class="relative md:-bottom-10 flex flex-col w-full md:w-1/3 py-6 space-y-4 text-center rounded-lg shadow-lg">
+            <!-- Image -->
+            <div class="flex justify-center">
+                <img src="./images/logo-opera.svg" alt="Opera">
+            </div>
+            <!-- Text -->
+            <h5 class="pt-6 text-xl font-bold">
+              Add to Opera
+            </h5>
+            <p class="text-gray-400">
+              Minimum Version 46
+            </p>
+            <!-- Dots -->
+            <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize"></div>
+            <!-- Button -->
+              <div class="mx-auto">
+                <a
+                  href="#"
+                  class="block w-full py-3 px-6 text-white duration-200
+                         border-2 rounded-lg bg-softBlue hover:text-softBlue
+                         hover:bg-white border-softBlue"
+                  >Add & Install Extension</a>
+              </div>
+          <!-- End of Button -->
+          </div>
+      </div> <!-- End of Boxes Container -->
     </section>
-    <!-- Download Boxes Section -->
-      <section id="download-boxes" class="py-10">
-      <div class="container flex flex-col mx-auto md:flex-row max-w-5xl">
+    <!-- End of New Download Boxes Section -->
 
-                      <!-- First Item -->
-                      <div class="flex flex-col items-center justify-center space-y-8 w-full md:w-1/3">
-                        <img src="./images/logo-chrome.svg" alt="" class="w-20 h-20">
-                        <h3
-                          class="mt-32 text-xl font-semibold text-center"
-                        >
-                          Add to Chrome
-                        </h3>
-                        <p class="max-w-md text-center text-grayishBlue">
-                          Minimum Version 62
-                        </p>
-          
-                        <!-- Button -->
-                        <div class="mx-auto">
-                          <a
-                            href="#"
-                            class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue hover:text-softBlue hover:bg-transparent"
-                            >Add & Install Extension</a
-                          >
-                        </div>
-                        <!-- End of Button -->
-                      </div>
+    <!-- FAQ Section -->
+    <section id="faq">
+      <!-- FAQ Container -->
+      <div class="container mx-auto px-6">
+        <h2 class="mb-6 text-3xl md:text-4xl font-semibold text-center">
+          Frequently Asked Questions
+        </h2>
+        <p class="mb-6 text-xl text-grayishBlue text-center max-w-lg px-6 mx-auto">
+          Here are some of our FAQs. If you have any other questions you'd like 
+          answered please free to email us.
+        </p>
+      </div> <!-- End of FAQ Container -->
+    </section> <!-- FAQ Section -->
 
-                      <!-- Second Item -->
-                      <div class="flex flex-col items-center justify-center space-y-8 w-full md:w-1/3 mt-20 md:mt-10">
-                        <img src="./images/logo-firefox.svg" alt="" class="w-20 h-20">
-                        <h3
-                          class="mt-32 text-xl font-semibold text-center"
-                        >
-                          Add to Firefox
-                        </h3>
-                        <p class="max-w-md text-center text-grayishBlue">
-                          Minimum Version 55
-                        </p>
-          
-                        <!-- Button -->
-                        <div class="mx-auto">
-                          <a
-                            href="#"
-                            class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue hover:text-softBlue hover:bg-transparent"
-                            >Add & Install Extension</a
-                          >
-                        </div>
-                        <!-- End of Button -->
-                      </div>
+    <!-- FAQ Accordion -->
+    <section id="faq-accordion">
 
-                      <!-- Third Item -->
-                      <div class="flex flex-col items-center justify-center space-y-8 w-full md:w-1/3  mt-20 md:mt-20">
-                        <img src="./images/logo-opera.svg" alt="" class="w-20 h-20">
-                        <h3
-                          class="mt-32 text-xl font-semibold text-center"
-                        >
-                          Add to Opera
-                        </h3>
-                        <p class="max-w-md text-center text-grayishBlue">
-                          Minimum Version 62
-                        </p>
-          
-                        <!-- Button -->
-                        <div class="mx-auto">
-                          <a
-                            href="#"
-                            class="px-6 py-3 mt-4 bg-softBlue font-semibold text-sm text-white rounded-lg border-2 border-white md:inline-flex md:border-softBlue hover:text-softBlue hover:bg-transparent"
-                            >Add & Install Extension</a
-                          >
-                        </div>
-                        <!-- End of Button -->
-                      </div>
+      <div class="container mx-auto px 6 mb-32">
 
+        <!-- Accordion Container -->
       </div>
-    </section><!-- End of Download Section -->
-    
+    </section>
   </body>
 </html>
