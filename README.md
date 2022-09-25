@@ -27,9 +27,10 @@ Download or copy from the github, then run `npm install`
   | 
   |_ [images](9 images)  
 
-## Colors
+## Assets
 
 Color Bucket: https://convertingcolors.com/color-bucket/view/5368DFFA57579194A1252B46.html
+Icons: https://heroicons.dev/
 
 ## Deployment
 
