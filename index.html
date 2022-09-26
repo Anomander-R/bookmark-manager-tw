@@ -21,8 +21,8 @@
       <!-- Flex container for Nav -->
       <div class="flex items-center justify-between space-x-20 my-6">
         <!-- Logo -->
-        <div class="z-30 h-[35px]">
-          <img src="./images/logo-bookmark.png" alt="" id="logo" />
+        <div class="z-30 w-44">
+          <img src="./images/logo-bookmark.png" alt="" id="logo" class="w-44"/>
         </div>
         <!-- Menu Items-->
         <div
@@ -43,6 +43,28 @@
             Login</a
           >
         </div>
+        <!-- Hamburger Button -->
+        <button 
+          id="menu-btn" 
+          type="button" 
+          class="z-40 block hamburger md:hidden focus:outline-none">
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="menu" class="fixed inset-0 z-20 hidden flex-col 
+                            items-center self-end w-full h-full
+                            min-h-screen px-6 py-1 pt-24 pb-4
+                            tracking-widest text-white uppercase
+                            divide-y divide-gray-500 opacity-90
+                            bg-veryDarkBlue">
+        <div class="w-full py-3 text-center"><a href="#features" class="hover:text-softRed">Features</a></div>
+        <div class="w-full py-3 text-center"><a href="#download" class="hover:text-softRed">download</a></div>
+        <div class="w-full py-3 text-center"><a href="#faq" class="hover:text-softRed">Faq</a></div>
+        <div class="w-full py-3 text-center"><a href="https://github.com/Anomander-R/bookmark-manager-tw"
+          target="_blank" class="text-softRed hover:text-white">Login</a></div>
       </div>
     </nav>
     <!-- End of Navigation -->
