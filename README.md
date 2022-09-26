@@ -25,7 +25,7 @@ Download or copy from the github, then run `npm install`
   |_ [src]  
   |   |___index.js  
   | 
-  |_ [images](9 images)  
+  |_ [images](15+ images)  
 
 ## Assets
 
@@ -34,4 +34,4 @@ Icons: https://heroicons.dev/
 
 ## Deployment
 
-Link: https://jovial-taiyaki-fc5a7f.netlify.app/
+Link: https://effortless-cocada-e9a678.netlify.app/
